@@ -45,13 +45,13 @@ app.MapPut("/consoles", (Consoles console) => VideoGameDB.UpdateConsole(console)
 app.MapDelete("/consoles/{id}", (int id) => VideoGameDB.RemoveConsole(id));
 
 /*** Games ***/
-/*
-app.MapGet("/games/{id}", (int id) => VideoGameDB.GetConsole(id));
-app.MapGet("/games", () => VideoGameDB.GetConsoles());
-app.MapPost("/games", (Games console) => VideoGameDB.AddConsole(console));
-app.MapPut("/games", (Games console) => VideoGameDB.UpdateConsole(console));
-app.MapDelete("/games/{id}", (int id) => VideoGameDB.RemoveConsole(console));
-*/
+
+app.MapGet("/games/{id}", (int id) => VideoGameDB.GetGame(id));
+app.MapGet("/games", () => VideoGameDB.GetGames());
+app.MapPost("/games", (Games game) => VideoGameDB.AddGame(game));
+app.MapPut("/games", (Games game) => VideoGameDB.UpdateGame(game));
+app.MapDelete("/games/{id}", (int id) => VideoGameDB.RemoveGame(id));
+
 
 //Start API and listen to requests
 app.Run();

@@ -45,7 +45,7 @@ public class VideoGameDB
         return console;
     }
 
-    public static Consoles UpdateConsole(Consoles console)
+    public static Consoles UpdateConsole(Consoles update)
     {
         _consoles = _consoles.Select(console =>
         {
@@ -55,6 +55,7 @@ public class VideoGameDB
             }
             return console;
         }).ToList();
+        return update;
     }
 
     public static void RemoveConsole(int id)
@@ -69,25 +70,26 @@ public class VideoGameDB
 
      public static Games ? GetGame(int id)
     {
-        return _games.SingleOrDefault(games => game.Id == id);
+        return _games.SingleOrDefault(game => game.Id == id);
     }
 
-    public static Games AddGames(Games games)
+    public static Games AddGame(Games games)
     {
-        _consoles.Add(games);
-        return game;
+        _games.Add(games);
+        return games;
     }
 
     public static Games UpdateGame(Games update)
     {
-        _games = _consoles.Select(console =>
+        _games = _games.Select(game =>
         {
             if (game.Id == update.Id)
             {
                 game.Name = update.Name;
             }
-            return console;
+            return game;
         }).ToList();
+        return update;
     }
 
     public static void RemoveGame(int id)
