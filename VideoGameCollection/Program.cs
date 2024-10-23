@@ -27,7 +27,7 @@ if (app.Environment.IsDevelopment())
 
 
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "C# API Demo!");
 
 
 
@@ -51,6 +51,15 @@ app.MapGet("/games", () => VideoGameDB.GetGames());
 app.MapPost("/games", (Games game) => VideoGameDB.AddGame(game));
 app.MapPut("/games", (Games game) => VideoGameDB.UpdateGame(game));
 app.MapDelete("/games/{id}", (int id) => VideoGameDB.RemoveGame(id));
+
+
+/*** Controllers/Accessories ***/
+
+app.MapGet("/controllers/{id}", (int id) => VideoGameDB.GetGame(id));
+app.MapGet("/controllers", () => VideoGameDB.GetGames());
+app.MapPost("/controllers", (Games game) => VideoGameDB.AddGame(game));
+app.MapPut("/controllers", (Games game) => VideoGameDB.UpdateGame(game));
+app.MapDelete("/controllers/{id}", (int id) => VideoGameDB.RemoveGame(id));
 
 
 //Start API and listen to requests
