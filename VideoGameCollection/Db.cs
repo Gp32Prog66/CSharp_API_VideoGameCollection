@@ -42,13 +42,13 @@ public class VideoGameDB
 {
     private static List<Consoles> _consoles = new List<Consoles>()
     {
-        new Consoles { Id = 1, Console_Name="Playstation 2", Manufacturer="Sony", Release_Year = 2000},
-        new Consoles { Id = 2, Console_Name="Nintendo 64", Manufacturer="Nintendo", Release_Year = 1996},
-        new Consoles { Id = 3, Console_Name="Atari 2600", Manufacturer="Atari", Release_Year = 1977},
-        new Consoles { Id = 4, Console_Name="Sega Genesis", Manufacturer="Sega", Release_Year = 1989},
-        new Consoles { Id = 5, Console_Name="Xbox 360", Manufacturer="Microsoft", Release_Year = 2005},
-        new Consoles { Id = 6, Console_Name="Wii U", Manufacturer="Nintendo", Release_Year = 2012},
-        new Consoles { Id = 7, Console_Name="Colecovision", Manufacturer="Coleco", Release_Year = 1982}
+        new Consoles { Id = 1, Name="Playstation 2", Manufacturer="Sony", Release_Year = 2000},
+        new Consoles { Id = 2, Name="Nintendo 64", Manufacturer="Nintendo", Release_Year = 1996},
+        new Consoles { Id = 3, Name="Atari 2600", Manufacturer="Atari", Release_Year = 1977},
+        new Consoles { Id = 4, Name="Sega Genesis", Manufacturer="Sega", Release_Year = 1989},
+        new Consoles { Id = 5, Name="Xbox 360", Manufacturer="Microsoft", Release_Year = 2005},
+        new Consoles { Id = 6, Name="Wii U", Manufacturer="Nintendo", Release_Year = 2012},
+        new Consoles { Id = 7, Name="Colecovision", Manufacturer="Coleco", Release_Year = 1982}
     };
 
     private static List<Games> _games = new List<Games>()
@@ -77,16 +77,16 @@ public class VideoGameDB
 
         private static List<Controllers> _controllers = new List<Controllers>()
     {
-        new Controllers { Id=1, Accessory= false, Controller = true, Manufacturer="Nintendo", System_Name="Snes", Description="Official Super Nintendo Controller"},
-        new Controllers { Id=2, Accessory= false, Controller = true, Manufacturer="Microsoft", System_Name="Xbox 360", Description="Official Xbox 360 Controller"},
-        new Controllers { Id=3, Accessory= false, Controller = true, Manufacturer="Suncala", System_Name="Playstation 2", Description="Third Party Playstation 2 Controller"},
-        new Controllers { Id=4, Accessory= false, Controller = true, Manufacturer="FIOTOK", System_Name="Nintendo GameCube", Description="Third Party Nintendo GameCube Controller"},
-        new Controllers { Id=5, Accessory= false, Controller = true, Manufacturer="Samfox", System_Name="Atari 2600", Description="Aftermarket Atari 2600 Controller"},
-        new Controllers { Id=6, Accessory= true, Controller = false, Manufacturer="Konami", System_Name="Playstation 2", Description="Dance Dance Revolution Pad"},
-        new Controllers { Id=7, Accessory= true, Controller = false, Manufacturer="Nintendo", System_Name="Nes", Description="NES Zapper"},
-        new Controllers { Id=8, Accessory= true, Controller = false, Manufacturer="Nintendo", System_Name="Snes", Description="Super Scope"},
-        new Controllers { Id=9, Accessory= true, Controller = false, Manufacturer="Microsoft", System_Name="Xbox 360", Description="Kinect"},
-        new Controllers { Id=10,Accessory= true, Controller = false, Manufacturer="Nintendo", System_Name="Wii", Description="Wii Fit Board"},
+        new Controllers { Id=1, Accessory= false, Controller = true, Manufacturer="Nintendo", Console_Name="Snes", Description="Official Super Nintendo Controller"},
+        new Controllers { Id=2, Accessory= false, Controller = true, Manufacturer="Microsoft", Console_Name="Xbox 360", Description="Official Xbox 360 Controller"},
+        new Controllers { Id=3, Accessory= false, Controller = true, Manufacturer="Suncala", Console_Name="Playstation 2", Description="Third Party Playstation 2 Controller"},
+        new Controllers { Id=4, Accessory= false, Controller = true, Manufacturer="FIOTOK", Console_Name="Nintendo GameCube", Description="Third Party Nintendo GameCube Controller"},
+        new Controllers { Id=5, Accessory= false, Controller = true, Manufacturer="Samfox", Console_Name="Atari 2600", Description="Aftermarket Atari 2600 Controller"},
+        new Controllers { Id=6, Accessory= true, Controller = false, Manufacturer="Konami", Console_Name="Playstation 2", Description="Dance Dance Revolution Pad"},
+        new Controllers { Id=7, Accessory= true, Controller = false, Manufacturer="Nintendo", Console_Name="Nes", Description="NES Zapper"},
+        new Controllers { Id=8, Accessory= true, Controller = false, Manufacturer="Nintendo", Console_Name="Snes", Description="Super Scope"},
+        new Controllers { Id=9, Accessory= true, Controller = false, Manufacturer="Microsoft", Console_Name="Xbox 360", Description="Kinect"},
+        new Controllers { Id=10,Accessory= true, Controller = false, Manufacturer="Nintendo", Console_Name="Wii", Description="Wii Fit Board"},
     };
 
     public static List<Consoles> GetConsoles()
@@ -145,7 +145,7 @@ public class VideoGameDB
         {
             if (game.Id == update.Id)
             {
-                game.Name = update.Name;
+                game.Title = update.Title;
             }
             return game;
         }).ToList();
@@ -157,7 +157,7 @@ public class VideoGameDB
         _games = _games.FindAll(game => game.Id != id).ToList();
     }
 
-        public static List<Games> GetGames()
+        public static List<Games> GetControllers()
     {
         return _games;
     }
@@ -179,7 +179,7 @@ public class VideoGameDB
         {
             if (controller.Id == update.Id)
             {
-                controller.Name = update.Name;
+                controller.Console_Name = update.Console_Name;
             }
             return controller;
         }).ToList();
