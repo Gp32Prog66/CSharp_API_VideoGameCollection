@@ -1,10 +1,37 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Video Game Collection API";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Assignment 5: Video Game Collection API</h1>
+
+    <div class="selection">
+
+    <h2>Consoles</h2>
+
+    
+
+    <button class = "btn-secondary" onclick="window.location.href='/Consoles/getConsoles.cshtml'">Show Consoles</button>
+    <button class = "btn-secondary" onclick="window.location.href='/Consoles/addConsoles.cshtml'">Add Console To Collection</button>
+    <button class = "btn-secondary" onclick="window.location.href='/Consoles/updateConsoles.cshtml'">Update Console To Collection</button>
+    <button class = "btn-secondary" onclick="window.location.href='/Consoles/deleteConsoles.cshtml'">Delete Console From Collection</button>
+
+    <h2>Games</h2>
+
+    <button class = "btn-secondary" onclick="window.location.href='/Consoles/getGames.cshtml'">Show Games</button>
+    <button class = "btn-secondary" onclick="window.location.href='/Consoles/addGames.cshtml'">Add Game To Collection</button>
+    <button class = "btn-secondary" onclick="window.location.href='/Consoles/updateGames.cshtml'">Update Game To Collection</button>
+    <button class = "btn-secondary" onclick="window.location.href='/Consoles/deleteGames.cshtml'">Delete Game From Collection</button>
+
+    <h2>Controllers/Accessories</h2>
+
+    <button class = "btn-secondary" onclick="window.location.href='/Consoles/getControllersAndAccessories.cshtml'">Show Controllers and Accessories</button>
+    <button class = "btn-secondary" onclick="window.location.href='/Consoles/addControllersAndAccessories.cshtml'">Add Controller/Accessory To Collection</button>
+    <button class = "btn-secondary" onclick="window.location.href='/Consoles/updateControllersAndAccessories.cshtml'">Update Controller/Accessory To Collection</button>
+    <button class = "btn-secondary" onclick="window.location.href='/Consoles/deleteControllersAndAccessories.cshtml'">Delete Controller/Accessory From Collection</button>
+    </div>
+
+    <p></p>
 </div>
