@@ -9,87 +9,87 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RazorPageVideoGameCollection
 build_property.RootNamespace = RazorPageVideoGameCollection
-build_property.ProjectDir = C:\Users\Default\Documents\CSharp_VideoGameCollection_API\RazorPageVideoGameCollection\RazorPageVideoGameCollection\
+build_property.ProjectDir = C:\Users\John\Documents\CSharp_VideoGameCollection_API\RazorPageVideoGameCollection\RazorPageVideoGameCollection\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Default\Documents\CSharp_VideoGameCollection_API\RazorPageVideoGameCollection\RazorPageVideoGameCollection
+build_property.MSBuildProjectDirectory = C:\Users\John\Documents\CSharp_VideoGameCollection_API\RazorPageVideoGameCollection\RazorPageVideoGameCollection
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Consoles/addConsoles.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Consoles/addConsoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc29sZXNcYWRkQ29uc29sZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Consoles/deleteConsoles.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Consoles/deleteConsoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc29sZXNcZGVsZXRlQ29uc29sZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Consoles/getConsoles.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Consoles/getConsoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc29sZXNcZ2V0Q29uc29sZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Consoles/updateConsoles.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Consoles/updateConsoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc29sZXNcdXBkYXRlQ29uc29sZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/ControllersAndAccessories/addControllersAndAccessories.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/ControllersAndAccessories/addControllersAndAccessories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udHJvbGxlcnNBbmRBY2Nlc3Nvcmllc1xhZGRDb250cm9sbGVyc0FuZEFjY2Vzc29yaWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/ControllersAndAccessories/deleteControllersAndAccessories.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/ControllersAndAccessories/deleteControllersAndAccessories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udHJvbGxlcnNBbmRBY2Nlc3Nvcmllc1xkZWxldGVDb250cm9sbGVyc0FuZEFjY2Vzc29yaWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/ControllersAndAccessories/getControllersAndAccessories.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/ControllersAndAccessories/getControllersAndAccessories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udHJvbGxlcnNBbmRBY2Nlc3Nvcmllc1xnZXRDb250cm9sbGVyc0FuZEFjY2Vzc29yaWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/ControllersAndAccessories/updateControllersAndAccessories.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/ControllersAndAccessories/updateControllersAndAccessories.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udHJvbGxlcnNBbmRBY2Nlc3Nvcmllc1x1cGRhdGVDb250cm9sbGVyc0FuZEFjY2Vzc29yaWVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Error.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Games/addGames.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Games/addGames.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXNcYWRkR2FtZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Games/deleteGames.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Games/deleteGames.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXNcZGVsZXRlR2FtZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Games/getGames.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Games/getGames.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXNcZ2V0R2FtZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Games/updateGames.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Games/updateGames.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZXNcdXBkYXRlR2FtZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Index.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Privacy.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/_ViewImports.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/_ViewStart.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Shared/_Layout.cshtml]
+[C:/Users/John/Documents/CSharp_VideoGameCollection_API/RazorPageVideoGameCollection/RazorPageVideoGameCollection/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-napv4w1lnw
