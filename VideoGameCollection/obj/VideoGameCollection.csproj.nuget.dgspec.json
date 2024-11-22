@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\John\\Documents\\CSharp_VideoGameCollection_API\\VideoGameCollection\\VideoGameCollection.csproj": {}
+    "C:\\Users\\Default\\Documents\\CSharp_VideoGameCollection_API\\VideoGameCollection\\VideoGameCollection.csproj": {}
   },
   "projects": {
-    "C:\\Users\\John\\Documents\\CSharp_VideoGameCollection_API\\VideoGameCollection\\VideoGameCollection.csproj": {
+    "C:\\Users\\Default\\Documents\\CSharp_VideoGameCollection_API\\VideoGameCollection\\VideoGameCollection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\John\\Documents\\CSharp_VideoGameCollection_API\\VideoGameCollection\\VideoGameCollection.csproj",
+        "projectUniqueName": "C:\\Users\\Default\\Documents\\CSharp_VideoGameCollection_API\\VideoGameCollection\\VideoGameCollection.csproj",
         "projectName": "VideoGameCollection",
-        "projectPath": "C:\\Users\\John\\Documents\\CSharp_VideoGameCollection_API\\VideoGameCollection\\VideoGameCollection.csproj",
-        "packagesPath": "C:\\Users\\John\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\John\\Documents\\CSharp_VideoGameCollection_API\\VideoGameCollection\\obj\\",
+        "projectPath": "C:\\Users\\Default\\Documents\\CSharp_VideoGameCollection_API\\VideoGameCollection\\VideoGameCollection.csproj",
+        "packagesPath": "C:\\Users\\szojo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Default\\Documents\\CSharp_VideoGameCollection_API\\VideoGameCollection\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\John\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\szojo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

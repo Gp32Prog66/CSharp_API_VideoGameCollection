@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cpQ4+8cXnUw=",
+  "dgSpecHash": "j/XLeUDR0bM=",
   "success": true,
   "projectFilePath": "C:\\Users\\Default\\Documents\\CSharp_VideoGameCollection_API\\RazorPageVideoGameCollection\\RazorPageVideoGameCollection\\RazorPageVideoGameCollection.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\szojo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\szojo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\szojo\\.nuget\\packages\\npgsql\\8.0.5\\npgsql.8.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

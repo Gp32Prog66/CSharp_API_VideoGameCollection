@@ -1,5 +1,6 @@
 using Microsoft.OpenApi.Models;
 using VideoGameCollection.DB;
+//using Npgsql;
 
 //Creating Builder
 var builder = WebApplication.CreateBuilder(args);
@@ -28,6 +29,8 @@ if (app.Environment.IsDevelopment())
 
 
 app.MapGet("/", () => "C# API Demo!");
+
+//string postGresString = "Host=videogamecollection;Port=5432;Database=postgres;Username=locahost;";
 
 
 

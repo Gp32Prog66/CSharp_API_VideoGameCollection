@@ -60,3 +60,6 @@ C:\Users\John\Documents\CSharp_VideoGameCollection_API\RazorPageVideoGameCollect
 C:\Users\John\Documents\CSharp_VideoGameCollection_API\RazorPageVideoGameCollection\RazorPageVideoGameCollection\obj\Debug\net8.0\RazorPageVideoGameCollection.pdb
 C:\Users\John\Documents\CSharp_VideoGameCollection_API\RazorPageVideoGameCollection\RazorPageVideoGameCollection\obj\Debug\net8.0\RazorPageVideoGameCollection.genruntimeconfig.cache
 C:\Users\John\Documents\CSharp_VideoGameCollection_API\RazorPageVideoGameCollection\RazorPageVideoGameCollection\obj\Debug\net8.0\ref\RazorPageVideoGameCollection.dll
+C:\Users\Default\Documents\CSharp_VideoGameCollection_API\RazorPageVideoGameCollection\RazorPageVideoGameCollection\bin\Debug\net8.0\Npgsql.dll
+C:\Users\Default\Documents\CSharp_VideoGameCollection_API\RazorPageVideoGameCollection\RazorPageVideoGameCollection\obj\Debug\net8.0\RazorPageVideoGameCollection.csproj.AssemblyReference.cache
+C:\Users\Default\Documents\CSharp_VideoGameCollection_API\RazorPageVideoGameCollection\RazorPageVideoGameCollection\obj\Debug\net8.0\RazorPag.62A1FD19.Up2Date
