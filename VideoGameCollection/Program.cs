@@ -1,11 +1,13 @@
 using Microsoft.OpenApi.Models;
 using VideoGameCollection.DB;
+
 //using Npgsql;
 
 //Creating Builder
 var builder = WebApplication.CreateBuilder(args);
 
 //Allows Swagger,CORS, and Entity Framework
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -26,17 +28,16 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-
+app.UseHttpsRedirection();
 
 app.MapGet("/", () => "C# API Demo!");
 
 //string postGresString = "Host=videogamecollection;Port=5432;Database=postgres;Username=locahost;";
 
 
-
-
 //Basic Middleware example
 //app.UseCors("MiddleWare Test");
+
 
 //Maps and Getters
 
